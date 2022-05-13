@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T02:26:10.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="i0pEBcsI2cV3C_UuHrqr" version="18.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-13T02:26:24.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="IKnIvJs0bq9SRZMwQxro" version="18.0.3" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence Basic">
     <mxGraphModel dx="1422" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -115,7 +115,7 @@
           <mxGeometry y="-1080" width="830" height="160" as="geometry" />
         </mxCell>
         <UserObject label="Source: https://developer.ibm.com/articles/the-sequence-diagram/" link="https://developer.ibm.com/articles/the-sequence-diagram/" id="zN8DcEWnaMwmWa9ZiDB6-1">
-          <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;" vertex="1" parent="1">
             <mxGeometry y="640" width="660" height="30" as="geometry" />
           </mxCell>
         </UserObject>
