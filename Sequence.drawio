@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T02:21:01.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="smCi65myq-J6Y9_HOpCJ" version="18.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-13T02:26:10.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="i0pEBcsI2cV3C_UuHrqr" version="18.0.3" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence Basic">
     <mxGraphModel dx="1422" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -114,6 +114,11 @@
         <mxCell id="tBn9dLWRTdamshEgE9BG-2" value="&lt;h4 style=&quot;text-align: justify;&quot;&gt;SEQUENCE DIAGRAM&lt;/h4&gt;&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;IBM Plex Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;letter-spacing: 0.16px; text-align: start;&quot;&gt;A sequence diagram is a UML interaction diagram that models the messages that pass between participants, such as objects and roles, as well as the control and conditional structures, such as combined fragments. You can create new sequence diagrams, populate existing sequence diagrams with source elements, add lifelines, messages, and combined fragments to sequence diagrams.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(244, 244, 244); letter-spacing: 0.32px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;IBM Plex Mono, Menlo, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier, monospace&quot; color=&quot;#161616&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry y="-1080" width="830" height="160" as="geometry" />
         </mxCell>
+        <UserObject label="Source: https://developer.ibm.com/articles/the-sequence-diagram/" link="https://developer.ibm.com/articles/the-sequence-diagram/" id="zN8DcEWnaMwmWa9ZiDB6-1">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+            <mxGeometry y="640" width="660" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
@@ -197,6 +202,11 @@
         <mxCell id="mPVrKVjC8mVkiGtCcPgU-9" value="Example" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="880" y="1370" width="60" height="30" as="geometry" />
         </mxCell>
+        <UserObject label="Source: https://developer.ibm.com/articles/the-sequence-diagram/" link="https://developer.ibm.com/articles/the-sequence-diagram/" id="IYPzn7S4lsNCGVKHW3Xo-1">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=21;" vertex="1" parent="1">
+            <mxGeometry x="832" y="1520" width="798" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
