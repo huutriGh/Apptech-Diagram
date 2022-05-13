@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T02:26:24.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="IKnIvJs0bq9SRZMwQxro" version="18.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-13T09:38:56.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="ZunW7-uukv4Mn14KZDTs" version="18.0.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence Basic">
     <mxGraphModel dx="1422" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -115,7 +115,7 @@
           <mxGeometry y="-1080" width="830" height="160" as="geometry" />
         </mxCell>
         <UserObject label="Source: https://developer.ibm.com/articles/the-sequence-diagram/" link="https://developer.ibm.com/articles/the-sequence-diagram/" id="zN8DcEWnaMwmWa9ZiDB6-1">
-          <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;" parent="1" vertex="1">
             <mxGeometry y="640" width="660" height="30" as="geometry" />
           </mxCell>
         </UserObject>
@@ -207,6 +207,38 @@
             <mxGeometry x="832" y="1520" width="798" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nmqXFcjcdm7ILJKdKRxf" name="Class">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Suuq0HtU_saqYbTsEoNt-1" value="Shopping Cart" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Suuq0HtU_saqYbTsEoNt-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Suuq0HtU_saqYbTsEoNt-1">
+          <mxGeometry y="26" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Suuq0HtU_saqYbTsEoNt-4" value="+ addItem(ItemtoAdd: Item, Quantity: Interger&#xa;+ removeItem(ItemToRemove:Item)&#xa;+ " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Suuq0HtU_saqYbTsEoNt-1">
+          <mxGeometry y="34" width="280" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="Suuq0HtU_saqYbTsEoNt-5" value="&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;IBM Plex Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: 0.16px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;In UML, a&amp;nbsp;&lt;/span&gt;&lt;dfn style=&quot;box-sizing: border-box; padding: 0px; border: 0px; margin: 0px; font-style: italic; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-weight: 400; font-stretch: inherit; line-height: inherit; font-family: &amp;quot;IBM Plex Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-size: 16px; vertical-align: baseline; color: rgb(22, 22, 22); letter-spacing: 0.16px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; class=&quot;term&quot;&gt;class&lt;/dfn&gt;&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;IBM Plex Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: 0.16px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;represents an object or a set of objects that share a common structure and behavior. Classes, or instances of classes, are common model elements in UML diagrams.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="770" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Suuq0HtU_saqYbTsEoNt-6" value="Item" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Suuq0HtU_saqYbTsEoNt-7" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Suuq0HtU_saqYbTsEoNt-6">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Suuq0HtU_saqYbTsEoNt-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Suuq0HtU_saqYbTsEoNt-6">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Suuq0HtU_saqYbTsEoNt-9" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Suuq0HtU_saqYbTsEoNt-6">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
