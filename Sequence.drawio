@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-14T14:52:39.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="nos5DSU0pRQJ2gfJEuSM" version="18.0.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-14T14:52:59.490Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="FCV_F3okqTDxwa_hpq55" version="18.0.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence Basic">
     <mxGraphModel dx="1422" dy="2013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -245,9 +245,9 @@
         <mxCell id="mPVrKVjC8mVkiGtCcPgU-9" value="Example" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="880" y="1370" width="60" height="30" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;span style=&quot;font-weight: normal;&quot;&gt;Source:&lt;/span&gt; https://www.ibm.com/docs/en/rational-soft-arch/9.6.1?topic=diagrams-creating-use-case" link="https://developer.ibm.com/articles/the-sequence-diagram/" id="IYPzn7S4lsNCGVKHW3Xo-1">
+        <UserObject label="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Source:&lt;/span&gt; https://www.ibm.com/docs/en/rational-soft-arch/9.6.1?topic=diagrams-creating-use-case&lt;/font&gt;" link="https://developer.ibm.com/articles/the-sequence-diagram/" id="IYPzn7S4lsNCGVKHW3Xo-1">
           <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=21;" parent="1" vertex="1">
-            <mxGeometry x="834.5" y="2160" width="798" height="120" as="geometry" />
+            <mxGeometry x="834.5" y="2160" width="798" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="0_qcmdqPgNHfqs5v7oGf-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
