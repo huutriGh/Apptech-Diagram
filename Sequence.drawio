@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-14T14:51:14.967Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="NGUcq8Wa2X70DquBjgDm" version="18.0.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-14T14:52:39.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="nos5DSU0pRQJ2gfJEuSM" version="18.0.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence Basic">
     <mxGraphModel dx="1422" dy="2013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -245,7 +245,7 @@
         <mxCell id="mPVrKVjC8mVkiGtCcPgU-9" value="Example" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="880" y="1370" width="60" height="30" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;span style=&quot;font-weight: normal;&quot;&gt;REF:&lt;/span&gt; https://www.ibm.com/docs/en/rational-soft-arch/9.6.1?topic=diagrams-creating-use-case" link="https://developer.ibm.com/articles/the-sequence-diagram/" id="IYPzn7S4lsNCGVKHW3Xo-1">
+        <UserObject label="&lt;span style=&quot;font-weight: normal;&quot;&gt;Source:&lt;/span&gt; https://www.ibm.com/docs/en/rational-soft-arch/9.6.1?topic=diagrams-creating-use-case" link="https://developer.ibm.com/articles/the-sequence-diagram/" id="IYPzn7S4lsNCGVKHW3Xo-1">
           <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=21;" parent="1" vertex="1">
             <mxGeometry x="834.5" y="2160" width="798" height="120" as="geometry" />
           </mxCell>
@@ -387,6 +387,11 @@
         <mxCell id="7jes74qcJ1qYmXEdHS2I-11" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 25px;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;Class Diagram&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;blockquote style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;IBM Plex Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-size: 16px; font-weight: 400; letter-spacing: 0.16px; background-color: rgb(255, 255, 255); line-height: 1;&quot;&gt;As the blueprints of your system, class diagrams model the objects that make up the system, allowing you to display the relationships among those objects and to describe what the objects can do and the services they can provide.&lt;/span&gt;&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="40" y="-20" width="760" height="150" as="geometry" />
         </mxCell>
+        <UserObject label="&lt;font color=&quot;#000000&quot;&gt;Source:&lt;/font&gt; https://www.ibm.com/docs/en/rational-soft-arch/9.6.1?topic=diagrams-class" link="https://www.ibm.com/docs/en/rational-soft-arch/9.6.1?topic=diagrams-class" id="7jes74qcJ1qYmXEdHS2I-12">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=20;fontColor=#007FFF;" vertex="1" parent="1">
+            <mxGeometry y="680" width="790" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
