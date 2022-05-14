@@ -1,72 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T09:38:56.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="ZunW7-uukv4Mn14KZDTs" version="18.0.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-14T08:01:06.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="1YRIpbi9kzxM55vTkzmI" version="18.0.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence Basic">
-    <mxGraphModel dx="1422" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="2013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="analyst : FinancialAnalyst" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="133" y="-210" width="150" height="300" as="geometry" />
+          <mxGeometry x="125" y="-299" width="150" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="70" y="70" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="system : ReportingSystem" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="-210" width="149" height="300" as="geometry" />
+          <mxGeometry x="346" y="-299" width="149" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="69" y="80" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="availlableReports" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="214" y="21.999999999999773" as="targetPoint" />
+            <mxPoint x="206" y="-67.00000000000023" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="getAvailabelReports" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="214" y="-130" as="sourcePoint" />
+            <mxPoint x="206" y="-219" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-10" value="usrClearance" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=-0.1;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="m5hxuh_p9RbYXUV5SAYv-16" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="434" y="-14" as="targetPoint" />
-            <mxPoint x="643" y="-14" as="sourcePoint" />
+            <mxPoint x="426" y="-103" as="targetPoint" />
+            <mxPoint x="635" y="-103" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-2" value="&lt;h4 style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;LIFELINE&lt;/font&gt;&lt;/h4&gt;&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;IBM Plex Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Lifelines represent either roles or object instances that participate in the sequence being modeled.&amp;nbsp;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;IBM Plex Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Lifelines are drawn as a box with a dashed line descending from the center of the bottom edge.&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;IBM Plex Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;The lifeline&#39;s name is placed inside the box.&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 16px; color: rgb(22, 22, 22); font-family: &amp;quot;IBM Plex Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif;&quot;&gt;The UML standard for naming a lifeline follows the format of : Instance Name : ClassName&lt;/span&gt;&lt;/div&gt;&lt;font face=&quot;IBM Plex Sans, Helvetica Neue, Arial, sans-serif&quot; color=&quot;#161616&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Not all lifelines represent named objects. Instead a lifeline can be used to represent an anonymous or unnamed instance. When modeling an unnamed instance on a sequence diagram, the lifeline&#39;s name follows the same pattern as a named instance; but instead of providing an instance name, that portion of the lifeline&#39;s name is left blank&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(244, 244, 244); letter-spacing: 0.32px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;IBM Plex Mono, Menlo, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier, monospace&quot; color=&quot;#161616&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="20" y="-810" width="830" height="230" as="geometry" />
+          <mxGeometry x="12" y="-899" width="830" height="230" as="geometry" />
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-3" value="Freshman : Student" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="-560" width="140" height="200" as="geometry" />
+          <mxGeometry x="42" y="-649" width="140" height="200" as="geometry" />
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-7" value="Student" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="-560" width="80" height="200" as="geometry" />
+          <mxGeometry x="242" y="-649" width="80" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="m5hxuh_p9RbYXUV5SAYv-8" value="&lt;h4 style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;MESSAGES&lt;/font&gt;&lt;/h4&gt;&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;IBM Plex Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;text-align: start;&quot;&gt;To show an object (i.e., lifeline) sending a message to another object, you draw a line to the receiving object with a solid arrowhead (if a synchronous call operation) or with a stick arrowhead (if an asynchronous signal). The message/method name is placed above the arrowed line. The message that is being sent to the receiving object represents an operation/method that the receiving object&#39;s class implements.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(244, 244, 244); letter-spacing: 0.32px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;IBM Plex Mono, Menlo, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier, monospace&quot; color=&quot;#161616&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="20" y="-360" width="830" height="140" as="geometry" />
+        <mxCell id="m5hxuh_p9RbYXUV5SAYv-8" value="&lt;h4 style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;MESSAGES&lt;/font&gt;&lt;/h4&gt;&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;IBM Plex Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;text-align: start;&quot;&gt;To show an object (i.e., lifeline) sending a message to another object, draw a line to the receiving object with a solid arrowhead (if a synchronous call operation) or with a stick arrowhead (if an asynchronous signal). The message/method name is placed above the arrowed line. The message that is being sent to the receiving object represents an operation/method that the receiving object&#39;s class implements.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(244, 244, 244); letter-spacing: 0.32px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;IBM Plex Mono, Menlo, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier, monospace&quot; color=&quot;#161616&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="12" y="-449" width="830" height="140" as="geometry" />
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-11" value="secSystem : SecuritySystem" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="578" y="-210" width="180" height="300" as="geometry" />
+          <mxGeometry x="570" y="-299" width="180" height="300" as="geometry" />
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-16" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="m5hxuh_p9RbYXUV5SAYv-11" vertex="1">
           <mxGeometry x="85" y="120" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-14" value="getSecurityClearance(userid)" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="443" y="-90" as="sourcePoint" />
-            <mxPoint x="662" y="-90" as="targetPoint" />
+            <mxPoint x="435" y="-179" as="sourcePoint" />
+            <mxPoint x="654" y="-179" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-17" value="&lt;h4 style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;MESSAGES (cont)&lt;/font&gt;&lt;/h4&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;IBM Plex Sans, Helvetica Neue, Arial, sans-serif&quot; color=&quot;#161616&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;When modeling a sequence diagram, there will be times that an object will need to send a message to itself.&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;IBM Plex Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-size: 16px; text-align: start;&quot;&gt;To draw an object calling itself, you draw a message as you would normally, but instead of connecting it to another object, you connect the message back to the object itself.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="10" y="110" width="830" height="160" as="geometry" />
+          <mxGeometry x="2" y="21" width="830" height="130" as="geometry" />
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-19" value="analyst : FinancialAnalyst" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="270" width="150" height="300" as="geometry" />
+          <mxGeometry x="42" y="181" width="150" height="300" as="geometry" />
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-20" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="m5hxuh_p9RbYXUV5SAYv-19" vertex="1">
           <mxGeometry x="70" y="70" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-21" value="system : ReportingSystem" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="271" y="270" width="149" height="300" as="geometry" />
+          <mxGeometry x="263" y="181" width="149" height="300" as="geometry" />
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-22" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="m5hxuh_p9RbYXUV5SAYv-21" vertex="1">
           <mxGeometry x="69" y="80" width="10" height="160" as="geometry" />
@@ -85,30 +85,30 @@
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-23" value="availlableReports" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" source="m5hxuh_p9RbYXUV5SAYv-22" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="131" y="501.9999999999998" as="targetPoint" />
+            <mxPoint x="123" y="412.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-24" value="getAvailabelReports" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" target="m5hxuh_p9RbYXUV5SAYv-22" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="131" y="350" as="sourcePoint" />
+            <mxPoint x="123" y="261" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-25" value="usrClearance" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=-0.1;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="351" y="430" as="targetPoint" />
-            <mxPoint x="579" y="431.03999999999996" as="sourcePoint" />
+            <mxPoint x="343" y="341" as="targetPoint" />
+            <mxPoint x="571" y="342.03999999999996" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-26" value="secSystem : SecuritySystem" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="495" y="270" width="180" height="300" as="geometry" />
+          <mxGeometry x="487" y="181" width="180" height="300" as="geometry" />
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-27" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="m5hxuh_p9RbYXUV5SAYv-26" vertex="1">
           <mxGeometry x="85" y="120" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="m5hxuh_p9RbYXUV5SAYv-28" value="getSecurityClearance(userid)" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="m5hxuh_p9RbYXUV5SAYv-22" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="390" as="sourcePoint" />
-            <mxPoint x="579" y="390" as="targetPoint" />
+            <mxPoint x="352" y="301" as="sourcePoint" />
+            <mxPoint x="571" y="301" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tBn9dLWRTdamshEgE9BG-2" value="&lt;h4 style=&quot;text-align: justify;&quot;&gt;SEQUENCE DIAGRAM&lt;/h4&gt;&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;IBM Plex Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;letter-spacing: 0.16px; text-align: start;&quot;&gt;A sequence diagram is a UML interaction diagram that models the messages that pass between participants, such as objects and roles, as well as the control and conditional structures, such as combined fragments. You can create new sequence diagrams, populate existing sequence diagrams with source elements, add lifelines, messages, and combined fragments to sequence diagrams.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(244, 244, 244); letter-spacing: 0.32px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;IBM Plex Mono, Menlo, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier, monospace&quot; color=&quot;#161616&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" parent="1" vertex="1">
@@ -116,14 +116,57 @@
         </mxCell>
         <UserObject label="Source: https://developer.ibm.com/articles/the-sequence-diagram/" link="https://developer.ibm.com/articles/the-sequence-diagram/" id="zN8DcEWnaMwmWa9ZiDB6-1">
           <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=20;" parent="1" vertex="1">
-            <mxGeometry y="640" width="660" height="30" as="geometry" />
+            <mxGeometry x="2" y="1081" width="660" height="30" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="MJMkMVPjEUM1tPfrCIHi-2" value="&lt;h4 style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;GUARD&lt;/font&gt;&lt;/h4&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;IBM Plex Sans, Helvetica Neue, Arial, sans-serif&quot; color=&quot;#161616&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;When modeling a sequence diagram, there will be times that an object will need to send a message to itself.&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: rgb(22, 22, 22); font-family: &amp;quot;IBM Plex Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Arial, sans-serif; font-size: 16px; text-align: start;&quot;&gt;To draw an object calling itself, you draw a message as you would normally, but instead of connecting it to another object, you connect the message back to the object itself.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="2" y="541" width="830" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="MJMkMVPjEUM1tPfrCIHi-3" value="register : RegisterOffice" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="42" y="741" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="MJMkMVPjEUM1tPfrCIHi-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="MJMkMVPjEUM1tPfrCIHi-3">
+          <mxGeometry x="70" y="70" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="MJMkMVPjEUM1tPfrCIHi-5" value="ar : AccountReceivable" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="263" y="741" width="149" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="MJMkMVPjEUM1tPfrCIHi-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="MJMkMVPjEUM1tPfrCIHi-5">
+          <mxGeometry x="69" y="80" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MJMkMVPjEUM1tPfrCIHi-9" value="passDueBalance" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1" source="MJMkMVPjEUM1tPfrCIHi-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="122" y="907" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MJMkMVPjEUM1tPfrCIHi-10" value="getPastDueBalance(studentId)" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" target="MJMkMVPjEUM1tPfrCIHi-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="123" y="821" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MJMkMVPjEUM1tPfrCIHi-11" value="" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=-0.1;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="122" y="1011" as="targetPoint" />
+            <mxPoint x="571" y="1009.04" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MJMkMVPjEUM1tPfrCIHi-12" value="drama : Class" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="487" y="741" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="MJMkMVPjEUM1tPfrCIHi-13" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="MJMkMVPjEUM1tPfrCIHi-12">
+          <mxGeometry x="85" y="227" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MJMkMVPjEUM1tPfrCIHi-14" value="[passDueBalance =0] addStudent( studentId )" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="122" y="968" as="sourcePoint" />
+            <mxPoint x="571" y="968" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="dVJeRuKE7RDZSUEcOzz5" name="Use Case">
-    <mxGraphModel dx="595" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="595" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -203,7 +246,7 @@
           <mxGeometry x="880" y="1370" width="60" height="30" as="geometry" />
         </mxCell>
         <UserObject label="Source: https://developer.ibm.com/articles/the-sequence-diagram/" link="https://developer.ibm.com/articles/the-sequence-diagram/" id="IYPzn7S4lsNCGVKHW3Xo-1">
-          <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=21;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=21;" parent="1" vertex="1">
             <mxGeometry x="832" y="1520" width="798" height="40" as="geometry" />
           </mxCell>
         </UserObject>
